@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 
+
+echo "exiting"
+exit 0
+
 # The is no default path. Valid path must be supplied
 if [ -z "$1" ]
   then
