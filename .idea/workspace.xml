@@ -25,8 +25,8 @@
       <file leaf-file-name="install_ubuntu.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/install/linux/install_ubuntu.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="330">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -155,8 +155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/install/linux/install_ubuntu.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="330">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>

@@ -24,6 +24,7 @@ fi
 temp_dir=$(mktemp -d)
 curl --silent -L wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -o "$temp_dir/vagrant.zip"
 pushd "$temp_dir"
+ls -al
 unzip vagrant.zip
 cp vagrant "$1"
 popd
