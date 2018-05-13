@@ -8,10 +8,7 @@ if [ -z "$1" ]
     exit 1
 fi
 
-
-install_bin="$1"
-
-if [ ! -d "$install_bin" ]
+if [ ! -d "$1" ]
     then
 
     echo "Err: Invalid path. Please supply valid dir as argument."
