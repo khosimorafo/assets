@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 
 
-
-echo "exiting"
-exit 0
-
 # The is no default path. Valid path must be supplied
 if [ -z "$1" ]
   then
@@ -12,7 +8,7 @@ if [ -z "$1" ]
     return 1
 fi
 
-install_bin = $1
+install_bin = "$1"
 
 if [ ! -d "install_bin" ]
     then
@@ -20,9 +16,28 @@ if [ ! -d "install_bin" ]
     return 1
 fi
 
+
+# -------------------------------------------------------------------
+# Vagrant Installation
+# -------------------------------------------------------------------
+
+temp_dir=$(mktemp -d)
+curl --silent -L wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -o "$temp_dir/vagrant.zip"
+pushd "$temp_dir"
+unzip vagrant.zip
+cp vagrant "$1"
+popd
+rm -rf "$temp_dir"
+
 # -------------------------------------------------------------------
 # VirtualBox installation script with Guest Additions
 # -------------------------------------------------------------------
+
+if [[ $(/usr/bin/which -A) ]]; then
+    echo "VirtualBox is already installed. Exiting ...."
+fi
+
+exit 1
 
 # 1. Add VirtualBox source
 echo "deb http://download.virtualbox.org/virtualbox/debian `lsb_release -cs` contrib" > virtualbox.list
@@ -50,14 +65,4 @@ sudo umount /media/VBoxGuestAdditions
 sudo rmdir /media/VBoxGuestAdditions
 
 
-# -------------------------------------------------------------------
-# Vagrant Installation
-# -------------------------------------------------------------------
 
-temp_dir=$(mktemp -d)
-curl --silent -L wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -o "$temp_dir/vagrant.zip"
-pushd "$temp_dir"
-unzip vagrant.zip
-cp vagrant $install_bin
-popd
-rm -rf "$temp_dir"
