@@ -126,6 +126,7 @@ do
     chmod +x "$DOWNLOAD_FILE"
 
     echo "Moving executable to $INSTALL_DIRECTORY"
+    echo "Binary directory is $BIN_DIR"
 
     /bin/bash "$DOWNLOAD_FILE" "$INSTALL_DIRECTORY" "$BIN_DIR"
 done
