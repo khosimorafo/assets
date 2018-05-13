@@ -22,7 +22,10 @@ fi
 # -------------------------------------------------------------------
 
 cd "$1"
-curl --silent -L wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -o vagrant.zip
+"I am inside "
+pwd
+"I am inside "
+wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -O vagrant.zip
 ls -al
 unzip vagrant.zip
 
