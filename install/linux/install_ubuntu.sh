@@ -13,7 +13,14 @@ echo "inside 2nd $1"
 if [ ! -d "$1" ]
     then
 
-    echo "Err: Invalid path. Please supply valid dir as argument."
+    echo "Err: Invalid path. Please supply valid dir as argument for {ecte.assets}."
+    exit 1
+fi
+
+if [ ! -d "$2" ]
+    then
+
+    echo "Err: Invalid path. Please supply valid dir as argument for {ecte.bin}."
     exit 1
 fi
 
@@ -21,19 +28,16 @@ fi
 # Vagrant Installation
 # -------------------------------------------------------------------
 
-cd "$1"
-"I am inside "
-pwd
-"I am inside "
 wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -O vagrant.zip
 ls -al
 unzip vagrant.zip
+mv vagrant "$2"
 
 # -------------------------------------------------------------------
 # VirtualBox installation script with Guest Additions
 # -------------------------------------------------------------------
 
-if [[ $(/usr/bin/which -A) ]]; then
+if [[ $(/usr/bin/which virtualbox) ]]; then
     echo "VirtualBox is already installed. Exiting ...."
     exit 0
 fi

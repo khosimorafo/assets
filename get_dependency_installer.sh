@@ -21,7 +21,8 @@ set -e
 
 ASSETS_URL="https://raw.githubusercontent.com/khosimorafo/assets/master/install/linux"
 INSTALL_DIRECTORY="$1"
-INSTALL_LOG_TAG="$2"
+BIN_DIR="$2"
+INSTALL_LOG_TAG="$3"
 
 
 downloadFile() {
@@ -126,5 +127,5 @@ do
 
     echo "Moving executable to $INSTALL_DIRECTORY"
 
-    /bin/bash "$DOWNLOAD_FILE" "$INSTALL_DIRECTORY"
+    /bin/bash "$DOWNLOAD_FILE" "$INSTALL_DIRECTORY" "$BIN_DIR"
 done
