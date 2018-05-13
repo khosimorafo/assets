@@ -21,15 +21,10 @@ fi
 # Vagrant Installation
 # -------------------------------------------------------------------
 
-temp_dir=$(mktemp -d)
-curl --silent -L wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -o "$temp_dir/vagrant.zip"
-pushd "$temp_dir"
-echo "INSIDE TEMP"
+cd "$1"
+curl --silent -L wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -o vagrant.zip
 ls -al
 unzip vagrant.zip
-cp vagrant "$1"
-popd
-rm -rf "$temp_dir"
 
 # -------------------------------------------------------------------
 # VirtualBox installation script with Guest Additions
