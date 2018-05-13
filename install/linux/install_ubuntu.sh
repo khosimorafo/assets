@@ -5,15 +5,16 @@
 if [ -z "$1" ]
   then
     echo "Err: Missing argument. Please supply install dir as first argument."
-    return 1
+    exit 1
 fi
 
 install_bin = "$1"
 
 if [ ! -d "install_bin" ]
     then
-      echo "Err: Invalid path. Please supply valid dir as argument."
-    return 1
+
+    echo "Err: Invalid path. Please supply valid dir as argument."
+    exit 1
 fi
 
 
