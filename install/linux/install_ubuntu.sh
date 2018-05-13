@@ -25,10 +25,18 @@ if [ ! -d "$2" ]
     exit 1
 fi
 
+WORK_DIR="$2"
+
 # -------------------------------------------------------------------
 # Vagrant Installation
 # -------------------------------------------------------------------
 
+if ! cd "${WORK_DIR}"
+		then
+			printf "\\n\\tUnable to enter directory %s.\\n" "${WORK_DIR}"
+			printf "\\n\\tExiting now.\\n\\n"
+			exit 1;
+		fi
 wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -O vagrant.zip
 ls -al
 unzip vagrant.zip
