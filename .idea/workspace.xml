@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1436767f-d828-4859-8472-ff1761b8a05c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/get_dependency_installer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/get_dependency_installer.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/install/linux/install_ubuntu.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install/linux/install_ubuntu.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,23 +14,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="get_dependency_installer.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_dependency_installer.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_dependency_installer.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1805" />
+            <state relative-caret-position="-1575">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install_ubuntu.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="install_ubuntu.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/install/linux/install_ubuntu.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ASSETS_DIR</find>
+    </findStrings>
   </component>
   <component name="GOROOT" path="$USER_HOME$/.go" />
   <component name="Git.Settings">
@@ -39,6 +47,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/install/linux/install_ubuntu.sh" />
+        <option value="$PROJECT_DIR$/get_dependency_installer.sh" />
       </list>
     </option>
   </component>
@@ -118,7 +127,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.16885246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -137,15 +146,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/get_dependency_installer.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1805" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/install/linux/install_ubuntu.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_dependency_installer.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,6 @@
 # - ASSETS_URL (required): map to $1. For logging output
 # - INSTALL_LOG_TAG (required): map to $2. For logging output
 # - INSTALL_DIRECTORY (required): map to $3
-# - ASSETS_DIR (required): map to $3
 # - DEP_RELEASE_TAG (optional): defaults to fetching the latest release
 # - DEP_OS (optional): use a specific value for OS (mostly for testing)
 # - DEP_ARCH (optional): use a specific value for ARCH (mostly for testing)
@@ -21,35 +20,9 @@
 set -e
 
 ASSETS_URL="https://raw.githubusercontent.com/khosimorafo/assets/master/install/linux"
-INSTALL_LOG_TAG=""
-INSTALL_DIRECTORY="."
-ASSETS_DIR="."
+INSTALL_DIRECTORY="$2"
+INSTALL_LOG_TAG="$3"
 
-
-downloadJSON() {
-    url="$2"
-
-    echo "Fetching $url.."
-    if test -x "$(command -v curl)"; then
-        response=$(curl -s -L -w 'HTTPSTATUS:%{http_code}' -H 'Accept: application/json' "$url")
-        body=$(echo "$response" | sed -e 's/HTTPSTATUS\:.*//g')
-        code=$(echo "$response" | tr -d '\n' | sed -e 's/.*HTTPSTATUS://')
-    elif test -x "$(command -v wget)"; then
-        temp=$(mktemp)
-        body=$(wget -q --header='Accept: application/json' -O - --server-response "$url" 2> "$temp")
-        code=$(awk '/^  HTTP/{print $2}' < "$temp" | tail -1)
-        rm "$temp"
-    else
-        echo "Neither curl nor wget was available to perform http requests."
-        exit 1
-    fi
-    if [ "$code" != 200 ]; then
-        echo "Request failed with code $code"
-        exit 1
-    fi
-
-    eval "$1='$body'"
-}
 
 downloadFile() {
     url="$1"
@@ -138,7 +111,6 @@ DEP_ARRAY=( $BINARY )
 
 for (( i=0; i<${#DEP_ARRAY[@]}; i++ ));
 do
-
     DEP=$DEP"${DEP_ARRAY[$i]} "
     echo "Downloading " $DEP
 
@@ -154,6 +126,5 @@ do
 
     echo "Moving executable to $INSTALL_DIRECTORY"
 
-    /bin/bash "$DOWNLOAD_FILE"
-
+    /bin/bash "$DOWNLOAD_FILE" "$INSTALL_DIRECTORY"
 done

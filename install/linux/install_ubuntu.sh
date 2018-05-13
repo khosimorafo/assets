@@ -17,7 +17,6 @@ if [ ! -d "install_bin" ]
     exit 1
 fi
 
-
 # -------------------------------------------------------------------
 # Vagrant Installation
 # -------------------------------------------------------------------
@@ -25,7 +24,7 @@ fi
 temp_dir=$(mktemp -d)
 curl --silent -L wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -o "$temp_dir/vagrant.zip"
 pushd "$temp_dir"
-unzip vagrant.zip
+unzip vagrant.zip .
 cp vagrant "$1"
 popd
 rm -rf "$temp_dir"
