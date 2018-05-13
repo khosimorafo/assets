@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1436767f-d828-4859-8472-ff1761b8a05c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/get_dependency_installer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/get_dependency_installer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install/linux/install_ubuntu.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install/linux/install_ubuntu.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="get_dependency_installer.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_dependency_installer.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_dependency_installer.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1265">
+            <state relative-caret-position="-1130">
               <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install_ubuntu.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="install_ubuntu.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/install/linux/install_ubuntu.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="255">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -46,8 +46,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/install/linux/install_ubuntu.sh" />
         <option value="$PROJECT_DIR$/get_dependency_installer.sh" />
+        <option value="$PROJECT_DIR$/install/linux/install_ubuntu.sh" />
       </list>
     </option>
   </component>
@@ -146,17 +146,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/install/linux/install_ubuntu.sh">
+    <entry file="file://$PROJECT_DIR$/get_dependency_installer.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-1130">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_dependency_installer.sh">
+    <entry file="file://$PROJECT_DIR$/install/linux/install_ubuntu.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1265">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="255">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
