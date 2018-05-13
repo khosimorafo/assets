@@ -8,9 +8,10 @@ if [ -z "$1" ]
     exit 1
 fi
 
-install_bin = "$1"
 
-if [ ! -d "install_bin" ]
+install_bin="$1"
+
+if [ ! -d "$install_bin" ]
     then
 
     echo "Err: Invalid path. Please supply valid dir as argument."
@@ -35,6 +36,7 @@ rm -rf "$temp_dir"
 
 if [[ $(/usr/bin/which -A) ]]; then
     echo "VirtualBox is already installed. Exiting ...."
+    exit 0
 fi
 
 exit 1
