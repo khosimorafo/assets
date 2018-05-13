@@ -20,8 +20,8 @@
 set -e
 
 ASSETS_URL="https://raw.githubusercontent.com/khosimorafo/assets/master/install/linux"
-INSTALL_DIRECTORY="$2"
-INSTALL_LOG_TAG="$3"
+INSTALL_DIRECTORY="$1"
+INSTALL_LOG_TAG="$2"
 
 
 downloadFile() {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1436767f-d828-4859-8472-ff1761b8a05c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/install/linux/install_ubuntu.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install/linux/install_ubuntu.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_dependency_installer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/get_dependency_installer.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +16,8 @@
       <file leaf-file-name="get_dependency_installer.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_dependency_installer.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="114" column="27" lean-forward="true" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+            <state relative-caret-position="-1265">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -46,8 +46,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/get_dependency_installer.sh" />
         <option value="$PROJECT_DIR$/install/linux/install_ubuntu.sh" />
+        <option value="$PROJECT_DIR$/get_dependency_installer.sh" />
       </list>
     </option>
   </component>
@@ -155,8 +155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/get_dependency_installer.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="114" column="27" lean-forward="true" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+        <state relative-caret-position="-1265">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
