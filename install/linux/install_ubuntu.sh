@@ -21,6 +21,7 @@ if [ ! -d "$2" ]
     then
 
     echo "Err: Invalid path. Please supply valid dir as argument for {ecte.bin}."
+    echo "Supplied values is $2"
     exit 1
 fi
 
