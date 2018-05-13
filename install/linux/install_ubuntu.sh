@@ -8,6 +8,8 @@ if [ -z "$1" ]
     exit 1
 fi
 
+echo "inside 2nd $1"
+
 if [ ! -d "$1" ]
     then
 
