@@ -1,46 +1,18 @@
 #!/usr/bin/env bash
 
 
-# The is no default path. Valid path must be supplied
-if [ -z "$1" ]
-  then
-    echo "Err: Missing argument. Please supply install dir as first argument."
-    exit 1
-fi
-
-echo "inside 2nd $1"
-
-if [ ! -d "$1" ]
-    then
-
-    echo "Err: Invalid path. Please supply valid dir as argument for {ecte.assets}."
-    exit 1
-fi
-
-if [ ! -d "$2" ]
-    then
-
-    echo "Err: Invalid path. Please supply valid dir as argument for {ecte.bin}."
-    echo "Supplied values is $2"
-    exit 1
-fi
-
-WORK_DIR="$2"
-
 # -------------------------------------------------------------------
 # Vagrant Installation
 # -------------------------------------------------------------------
 
-if ! cd "${WORK_DIR}"
-		then
-			printf "\\n\\tUnable to enter directory %s.\\n" "${WORK_DIR}"
-			printf "\\n\\tExiting now.\\n\\n"
-			exit 1;
-		fi
-wget https://releases.hashicorp.com/vagrant/2.1.1/vagrant_2.1.1_linux_amd64.zip -O vagrant.zip
-ls -al
-unzip vagrant.zip
-mv vagrant "$2"
+if [[ $(/usr/bin/which vagrant) ]]; then
+
+    echo "Vagrant already installed is already installed.\n"
+    echo 'Installed Vagrant version is '$(vagrant -v) '\\n'
+else
+    echo "Installing Vagrant... "
+    sudo apt-get install vagrant
+fi
 
 # -------------------------------------------------------------------
 # VirtualBox installation script with Guest Additions
