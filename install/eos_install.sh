@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+sudo apt update
+sudo apt install curl build-essential vim -y
+
 GLOBAL_PATH=$(pwd)
 EOS_SOURCE_DIR=$HOME/opt/source
 TAG="DAWN-2018-05-16"
