@@ -3,7 +3,7 @@ variable "etcd_initial_cluster" {
 }
 
 variable "consul_server_cluster" {
-  default = "192.168.1.101,192.168.1.102,192.168.1.103"
+  default = "worker-1=http://worker-1.infra.local,worker-2=http://worker-2.infra.local"
 }
 
 
