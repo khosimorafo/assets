@@ -9,7 +9,7 @@ if [ -f /vagrant/terraform/modules/ignition/users/demo.tf ]; then
     rm /vagrant/terraform/modules/ignition/users/demo.tf
 fi
 
-ssh-keygen -q -t rsa -N "" -f /home/vagrant/.ssh/id_rsa
+sudo -u vagrant ssh-keygen -q -t rsa -N "" -f /home/vagrant/.ssh/id_rsa
 
 export PUBKEY=$(cat /home/vagrant/.ssh/id_rsa.pub)
 

@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1436767f-d828-4859-8472-ff1761b8a05c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/0aadd552fdef2b0aa7699c5bc5826df1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/201a306d3125f83b56f471155a377856" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/2c6bff2b883197a2934285b50a93d095" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/34d8e1f034647197f7ba2b02020d5b85" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/3c519fa20edee1561a52dcb5e0ba89ee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/608be25d19af791b3b3076b585d8efb7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/67785e512b04598eadd2b0f6df013a90" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/7655d542d7c15015e00ef956a58e92ba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/76dcb6e07c04c643d547c534214f68b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/798b63d303ee6c54e7b457a34083715b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/8b37974355c76d8425e6fa32e6cb9d09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/90493d73a16f721a74f48a31f20571b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/90b5c5fef281566c726384c4393816e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/980da8bae0ac2384e6defff26a7b4486" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/ac4428b4925fb0bc01d047d605652cff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/b3559207c7713ce04cfe418c0e81be8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/c4e23df26dc7a9f7647211576e4919ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/ccab799d5a4102df33942e7f3e41fea5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/da941bb4dbfac0a37ea614bd088c7d5e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/e0b3cafdb1b06a6ff36020751d48fc72" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/ebc71f484a76a0cae3c6bc3797c8b881" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/ed19129accffbf1b346b93edfadb0151" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/ee14c8fd370c359558f13c048995b305" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/f30516b3c6e66dc3e4776adef439d59a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/fdad3422e19028d95185bef56f389df2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/modules/modules.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/plugins/linux_amd64/lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/plugins/linux_amd64/terraform-provider-ignition_v1.0.0_x4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/.terraform/plugins/linux_amd64/terraform-provider-template_v1.0.0_x4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/provisioners/terraform/environment/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/plan.out" beforeDir="false" afterPath="$PROJECT_DIR$/provisioners/terraform/environment/plan.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/provisioners/terraform/environment/terraform.tfstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/environment/terraform.tfstate.backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provisioners/terraform/modules/ignition/users/demo.tf" beforeDir="false" afterPath="$PROJECT_DIR$/provisioners/terraform/modules/ignition/users/demo.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provisioners/scripts/users.sh" beforeDir="false" afterPath="$PROJECT_DIR$/provisioners/scripts/users.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,11 +20,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="provision.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="provision.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provisioners/scripts/provision.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+              <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -77,14 +52,18 @@
         <entry file="file://$PROJECT_DIR$/provisioners/terraform/environment/main.tf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
-              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="users.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/provisioners/scripts/users.sh">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="iptables.envsubst.tpl" pinned="false" current-in-tab="false">
@@ -100,13 +79,6 @@
       <file leaf-file-name="dnsmasq.service" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provisioners/files/dnsmasq.service">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="get-coreos" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provisioners/files/get-coreos">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-852" />
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -133,6 +105,8 @@
         <option value="$PROJECT_DIR$/create_user.sh" />
         <option value="$PROJECT_DIR$/provisioners/scripts/provision.sh" />
         <option value="$PROJECT_DIR$/provisioners/terraform/environment/main.tf" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/provisioners/scripts/users.sh" />
       </list>
     </option>
   </component>
@@ -164,6 +138,17 @@
               <item name="assets" type="b2602c69:ProjectViewProjectNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="assets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="provisioners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="provisioners" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,8 +176,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25698325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25698325" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
@@ -200,7 +186,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25737706" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48032787" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -219,13 +205,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/get_dependency_installer.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seed.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -528,17 +507,28 @@
     <entry file="file://$PROJECT_DIR$/provisioners/terraform/environment/main.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
-          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provisioners/scripts/users.sh">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/provisioners/scripts/provision.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provisioners/scripts/users.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
